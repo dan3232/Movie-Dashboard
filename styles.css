@@ -1,0 +1,90 @@
+body {
+    margin: 0;
+    background-color: #1A161F;
+    color: white;
+    font-family: 'Inter', sans-serif;
+}
+
+/* Layout */
+
+
+
+.nav-select {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 35%;
+    font-size: .55rem;
+    display: flex;
+    margin-top: 1em;
+    cursor: pointer;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.icon { 
+    -webkit-filter: invert(50%);
+    width: 24px;
+    height: 24px;
+}
+
+
+.icon-box {
+    display: flex;
+    width: 75%;
+    align-items: center;
+    cursor: pointer;
+    margin-left:2em ;
+    padding-bottom: .15em;
+}
+
+.line {
+    border-bottom:.5px solid #efefef8b;
+    padding-bottom: .30em;
+    margin-bottom: .30em;
+}
+
+main {
+    width: 60%;
+}
+
+menu {
+    width: 20%;
+}
+
+.sidebar {
+    width: 25%;
+}
+
+/* Typography */
+
+.icon-box p,
+.nav-select,
+menu {
+    color: #efefef8b;
+}
+
+.icon-box p {
+    padding-left: .75em;
+}
+
+.icon-box p:hover {
+    color: #efefef;
+}
+
+.logo {
+    color: #efefef;
+}
+
+.litle {
+    padding-left: 2.5em;
+    font-size: .80rem;
+    margin-top: 3em;
+}
+
+.nav-select h2:hover {
+    color: #efefef;
+}
